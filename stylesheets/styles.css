@@ -634,6 +634,7 @@ code {
   -ms-border-radius: 2px;
   -khtml-border-radius: 2px;
   border-radius: 2px;
+  background: #5a5a5a;
 }
 
 pre {
@@ -848,4 +849,9 @@ section #title .credits.right {
   nav {
     display: none;
   }
+}
+
+.rating {
+  color: #ffcc00;
+  margin-left: .5em;
 }
