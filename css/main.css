@@ -43,6 +43,28 @@ h3 {
 
 table {
     display: none;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+}
+
+table.adaptive {
+    display: table;
+}
+
+th {
+    text-align: left;
+    padding: 5px 10px;
+    border-bottom: 1px solid #434343;
+    color: #b6b6b6;
+    font-weight: normal;
+}
+
+td {
+    text-align: left;
+    padding: 5px 10px;
+    border-bottom: 1px solid #434343;
+    min-width: 70px;
 }
 
 .rating {
@@ -64,7 +86,7 @@ code {
     background: #5a5a5a;
 }
 
-@media (min-width: 321px) {
+@media (min-width: 500px) {
     #wrapper {
         padding: 0 20px;
     }
@@ -75,22 +97,13 @@ code {
 
     table {
         display: table;
-        border-collapse: collapse;
-        border-spacing: 0;
-        width: 100%;
     }
 
-    th {
-        text-align: left;
-        padding: 5px 10px;
-        border-bottom: 1px solid #434343;
-        color: #b6b6b6;
-        font-weight: normal;
+    table.adaptive {
+        display: none;
     }
 
-    td {
-        text-align: left;
-        padding: 5px 10px;
-        border-bottom: 1px solid #434343;
+    td:last-child {
+        min-width: 0;
     }
 }
