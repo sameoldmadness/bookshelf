@@ -1,6 +1,6 @@
 (function () {
 
-$.get('index.md').then(function (data) {
+$.get('README.md').then(function (data) {
   $('#content').html(marked(data));
 
   $('h3').each(function () {
