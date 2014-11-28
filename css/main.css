@@ -1,0 +1,96 @@
+body {
+    padding: 0;
+    margin: 0;
+    font: 14px/1.5 Corbel, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #f0e7d5;
+    background: #252525;
+}
+
+#wrapper {
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    color: #e8e8e8;
+    margin: 0 0 10px;
+}
+
+h1, h2, h3 {
+    line-height: 1.1;
+}
+
+h1 {
+    font-family: "Segoe UI Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    line-height: 36px;
+    border-bottom: 1px dashed #555; 
+    padding: 0 0 10px;
+    margin: 20px 0;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 18px;
+    line-height: 24px;
+    color: #b6b6b6;
+}
+
+table {
+    display: none;
+}
+
+.rating {
+    color: #ffcc00;
+    margin-left: .5em;
+}
+
+p, ul, ol, table, pre {
+    margin: 0 0 20px;
+}
+
+code {
+    font-family: "Consolas", "Lucida Sans", Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal;
+    color: #efefef;
+    font-size: 13px;
+    margin: 0 4px;
+    padding: 4px 6px;
+    border-radius: 2px;
+    background: #5a5a5a;
+}
+
+@media (min-width: 321px) {
+    #wrapper {
+        padding: 0 20px;
+    }
+
+    h1 {
+        margin: 100px 0 75px;
+    }
+
+    table {
+        display: table;
+        border-collapse: collapse;
+        border-spacing: 0;
+        width: 100%;
+    }
+
+    th {
+        text-align: left;
+        padding: 5px 10px;
+        border-bottom: 1px solid #434343;
+        color: #b6b6b6;
+        font-weight: normal;
+    }
+
+    td {
+        text-align: left;
+        padding: 5px 10px;
+        border-bottom: 1px solid #434343;
+    }
+}
