@@ -17,6 +17,12 @@ Reading list
 Notes
 -----
 
+### Even Faster Web Sites
+
+> Typically, however, the bottleneck is not JavaScript, but the DOM, so fiddling with scripts will have little effectiveness.
+
+> Avoid obscure idioms that might be faster unless you can prove that they will have a noticeable impact on your application.
+
 ### High performance Web Sites ++++
 
 Только 10-20% от времени загрузки страницы затрачивается на получение html-документа. До 90% времени уходит на загрузку компонентов, обработку кода и отрисовку.
@@ -47,5 +53,3 @@ CDN — не только для загрузки jQuery на прототипе
 Для счётчиков следует использовать код ответа `204 No Content`.
 
 Если для статики использовать отдельный хост, браузер не будет отправлять туда пользовательские куки.
-
-### Even Faster Web Sites
