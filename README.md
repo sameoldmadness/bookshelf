@@ -17,11 +17,19 @@ Reading list
 Notes
 -----
 
-### Even Faster Web Sites
+### Even Faster Web Sites +++
 
 > Typically, however, the bottleneck is not JavaScript, but the DOM, so fiddling with scripts will have little effectiveness.
 
 > Avoid obscure idioms that might be faster unless you can prove that they will have a noticeable impact on your application.
+
+Jakob Nielsen's definition of "fast enough":
+
+* **0.1 second**: limit for users feeling that they are directly manipulating objects in the UI.
+* **1 second**: limit for users feeling that they are freely navigating the command space without having to unduly wait for the computer.
+* **10 seconds**: limit for users keeping their attention on the task.
+
+Google Gears worker API is the HTML5 Web Worker API's predcessor .
 
 ### High performance Web Sites ++++
 
