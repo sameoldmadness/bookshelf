@@ -29,7 +29,28 @@ Jakob Nielsen's definition of "fast enough":
 * **1 second**: limit for users feeling that they are freely navigating the command space without having to unduly wait for the computer.
 * **10 seconds**: limit for users keeping their attention on the task.
 
-Google Gears worker API is the HTML5 Web Worker API's predcessor .
+Google Gears worker API is the HTML5 Web Worker API's predecessor.
+
+Techniques of non-blocking script downloading:
+
+* XHR Eval
+* XHR Injection
+* Script in Iframe
+* Script DOM Element
+* Script Defer
+* `document.write` Script Tag
+
+Asyncronous script coupling techniques:
+
+* External/Inline
+  * Hardcoded Callback
+  * Window Onload
+  * Timer
+  * Script Onload
+  * Degrading Script Tags
+* External/External
+  * Managed XHR
+  * DOM Element and `document.write`
 
 ### High performance Web Sites ++++
 
