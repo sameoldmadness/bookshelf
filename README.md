@@ -17,7 +17,7 @@ Reading list
 Notes
 -----
 
-### Even Faster Web Sites +++
+### Even Faster Web Sites ++++
 
 > Typically, however, the bottleneck is not JavaScript, but the DOM, so fiddling with scripts will have little effectiveness.
 
@@ -51,6 +51,8 @@ Asyncronous script coupling techniques:
 * External/External
   * Managed XHR
   * DOM Element and `document.write`
+
+> Stylesheets followed by an inline script block any subsequent resources from downloading.
 
 ### High performance Web Sites ++++
 
