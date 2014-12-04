@@ -54,6 +54,20 @@ Asyncronous script coupling techniques:
 
 > Stylesheets followed by an inline script block any subsequent resources from downloading.
 
+> A good rule of thumb is to store any out-of-scope variables in a local variable whenever it's used more than once within the function.
+
+`with` and `catch` statements temporaly augment scope chain, therefore slowing down local identifiers resoluton.
+
+Access to local variables is significantly faster than access to array items or object properties.
+
+The fastest conditionals:
+
+* `if`: no more than 2 conditions
+* `switch`: more than 2 but fewer than 10 conditions
+* array lookup: more than 10 conditions
+
+> Adding the items directly into the appropriatw index is slightly faster than calling `push` for each value.
+
 ### High performance Web Sites ++++
 
 Только 10-20% от времени загрузки страницы затрачивается на получение html-документа. До 90% времени уходит на загрузку компонентов, обработку кода и отрисовку.
