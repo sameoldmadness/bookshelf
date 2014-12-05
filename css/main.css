@@ -76,6 +76,14 @@ p, ul, ol, table, pre {
     margin: 0 0 20px;
 }
 
+li > ul, li > ol {
+    margin: 0;
+}
+
+p + ul, p + ol {
+    margin-top: -10px;
+}
+
 code {
     font-family: "Consolas", "Lucida Sans", Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal;
     color: #efefef;
@@ -84,6 +92,13 @@ code {
     padding: 4px 6px;
     border-radius: 2px;
     background: #5a5a5a;
+}
+
+blockquote {
+    border-left: 3px solid #ffcc00;
+    margin: 0;
+    padding: 0 0 0 20px;
+    font-style: italic;
 }
 
 @media (min-width: 500px) {

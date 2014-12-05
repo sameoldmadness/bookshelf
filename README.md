@@ -19,7 +19,9 @@ Notes
 
 ### Even Faster Web Sites ++++
 
-> Typically, however, the bottleneck is not JavaScript, but the DOM, so fiddling with scripts will have little effectiveness.
+> Typically, however, the bottleneck is not JavaScript, but the DOM, so fiddling with scripts will have little effeciveness.
+
+<!-- -->
 
 > Avoid obscure idioms that might be faster unless you can prove that they will have a noticeable impact on your application.
 
@@ -54,6 +56,8 @@ Asyncronous script coupling techniques:
 
 > Stylesheets followed by an inline script block any subsequent resources from downloading.
 
+<!-- -->
+
 > A good rule of thumb is to store any out-of-scope variables in a local variable whenever it's used more than once within the function.
 
 `with` and `catch` statements temporaly augment scope chain, therefore slowing down local identifiers resoluton.
@@ -66,7 +70,7 @@ The fastest conditionals:
 * `switch`: more than 2 but fewer than 10 conditions
 * array lookup: more than 10 conditions
 
-> Adding the items directly into the appropriatw index is slightly faster than calling `push` for each value.
+> Adding the items directly into the appropriate index is slightly faster than calling `push` for each value.
 
 ### High performance Web Sites ++++
 
