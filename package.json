@@ -1,0 +1,15 @@
+{
+  "name": "bookshelf",
+  "version": "0.0.1",
+  "devDependencies": {
+    "gulp": "^3.8.10",
+    "gulp-htmlmin": "^0.2.0",
+    "gulp-smoosher": "0.0.7",
+    "marked": "^0.3.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sameoldmadness/bookshelf.git"
+  },
+  "author": "Roman Paradeev <sameoldmadness@gmail.com>"
+}
