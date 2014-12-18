@@ -4,6 +4,7 @@ ul, ol {
 
 body {
     background-color: #151515;
+    /* Texture made by Michal Chovanec. http://subtlepatterns.com/outlets/ */
     background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAICAMAAADp7a43AAAABlBMVEUMDAwZGRmxH7IqAAAAG0lEQVR42m2IoQ0AAACC4P+n1e5gBMCCLqO+FwGoABVveOG2AAAAAElFTkSuQmCC);
     color: #f0e7d5;
     font: 14px/1.5 Corbel, Arial, sans-serif;
