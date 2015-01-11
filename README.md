@@ -86,11 +86,16 @@ Five different approaches to implementing the low-latency data communications:
 
 > Popular client software programs and web proxies modify the client's `Accept-Encoding` request header.
 
-Techniques that can reduce a page's uncompressed size by :
+Techniques that can reduce a page's uncompressed size (from 5% to 20%):
 
 * using event delegation
 * using relative urls
 * stripping whitespace
+* stripping attribute quotes
+* avoiding inline styling
+* aliasing javascript names
+
+Direct detection of gzip support: if the `Accept-Encoding` header is missing, output a hidden iframe with gzipped content as the last element of the page body.
 
 ### High performance Web Sites ++++
 
