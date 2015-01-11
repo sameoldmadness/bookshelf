@@ -21,7 +21,7 @@ Notes
 
 > Typically, however, the bottleneck is not JavaScript, but the DOM, so fiddling with scripts will have little effeciveness.
 
-<!-- -->
+ <!-- -->
 
 > Avoid obscure idioms that might be faster unless you can prove that they will have a noticeable impact on your application.
 
@@ -71,6 +71,26 @@ The fastest conditionals:
 * array lookup: more than 10 conditions
 
 > Adding the items directly into the appropriate index is slightly faster than calling `push` for each value.
+
+Five different approaches to implementing the low-latency data communications:
+
+* polling
+* long polling
+* forever frame
+* XHR streaming
+* websockets (to rule them all)
+
+> Roughly 15% of visitors don't indicate gzip compression support.
+
+<!-- -->
+
+> Popular client software programs and web proxies modify the client's `Accept-Encoding` request header.
+
+Techniques that can reduce a page's uncompressed size by :
+
+* using event delegation
+* using relative urls
+* stripping whitespace
 
 ### High performance Web Sites ++++
 
