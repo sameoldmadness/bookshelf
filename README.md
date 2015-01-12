@@ -21,7 +21,7 @@ Notes
 
 > Typically, however, the bottleneck is not JavaScript, but the DOM, so fiddling with scripts will have little effeciveness.
 
- <!-- -->
+<!-- -->
 
 > Avoid obscure idioms that might be faster unless you can prove that they will have a noticeable impact on your application.
 
@@ -96,6 +96,12 @@ Techniques that can reduce a page's uncompressed size (from 5% to 20%):
 * aliasing javascript names
 
 Direct detection of gzip support: if the `Accept-Encoding` header is missing, output a hidden iframe with gzipped content as the last element of the page body.
+
+> Strive for PNG8 whenever possible.
+
+<!-- -->
+
+> Crush PNG, optimize GIF animations, and strip JPEG metadata from the images _you own_. Use progressive JPEG encoding for JPEGs more than 10 KB in file size.
 
 ### High performance Web Sites ++++
 
