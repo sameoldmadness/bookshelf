@@ -1,10 +1,11 @@
 Schedule
 --------
 
-|Title|Author|Begin|End|Est|
+|Title|Author|Est|Begin|End|
 |-----|------|-----|---|---|
-|High performance Web Sites|Steve Souders|2014-11-19|2014-11-27|2w|
-|Even Faster Web Sites|Steve Souders|2014-11-28|-|3w|
+|High performance Web Sites|Steve Souders|2w|2014-11-19|2014-11-27|
+|Even Faster Web Sites|Steve Souders|3w|2014-11-28|2015-01-14|
+|Web Performance Playbook vol.2|2w|2015-01-15|-|
 
 Reading list
 ------------
@@ -102,6 +103,21 @@ Direct detection of gzip support: if the `Accept-Encoding` header is missing, ou
 <!-- -->
 
 > Crush PNG, optimize GIF animations, and strip JPEG metadata from the images _you own_. Use progressive JPEG encoding for JPEGs more than 10 KB in file size.
+
+_Flushing_ can be used to serve documents that take long time to generate.
+
+Reasons to avoid iframes:
+
+* they're one to two orders of magnitude more expensive than other DOM elements
+* they block the onload event (workaround: set `src` from js)
+* the browser's limited connections per server are shared across the main page and iframes
+
+Complex selectors _could_ impact performance.
+
+Selectors are matched right to left:
+
+* `div div div .my-class` is almost as fast as `.myclass`
+* `#my-id a` is much slower than `a`
 
 ### High performance Web Sites ++++
 
