@@ -3,7 +3,7 @@ Schedule
 
 |Title|Author|Est|Begin|End|
 |-----|------|-----|---|---|
-|High performance Web Sites|Steve Souders|2w|2014-11-19|2014-11-27|
+|High Performance Web Sites|Steve Souders|2w|2014-11-19|2014-11-27|
 |Even Faster Web Sites|Steve Souders|3w|2014-11-28|2015-01-14|
 |Web Performance Playbook vol.2|Stoyan Stefanov|2w|2015-01-15|-|
 
