@@ -18,6 +18,8 @@ Reading list
 Notes
 -----
 
+### Web Performance Playbook vol.2
+
 ### Even Faster Web Sites ++++
 
 > Typically, however, the bottleneck is not JavaScript, but the DOM, so fiddling with scripts will have little effeciveness.
