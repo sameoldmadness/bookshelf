@@ -5,7 +5,8 @@ Schedule
 |-----|------|-----|---|---|
 |[High Performance Web Sites](#high-performance-web-sites-)|Steve Souders|2w|2014-11-19|2014-11-27|
 |[Even Faster Web Sites](#even-faster-web-sites-)|Steve Souders|3w|2014-11-28|2015-01-14|
-|[Web Performance Playbook vol.2](#web-performance-playbook-vol-2-)|Stoyan Stefanov|2w|2015-01-15|-|
+|[Web Performance Playbook vol.2](#web-performance-playbook-vol-2-)|Stoyan Stefanov|2w|2015-01-15|2015-03-18|
+|[Async Javascript](#async-javascript)|Trevor Brunham|1w|2015-03-18||
 
 Reading list
 ------------
@@ -18,7 +19,28 @@ Reading list
 Notes
 -----
 
-### Web Performance Playbook vol.2 +++++
+### Async Javascript
+
+### Web Performance Playbook vol.2 +++
+
+Tools:
+
+- [WebPageTest](https://www.google.ru/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0CB0QFjAA&url=http%3A%2F%2Fwww.webpagetest.org%2F&ei=OoYIVZ70O8TcPd-ZgPgF&usg=AFQjCNFAbhmq3XBEm4BIZ5OwnLSzHZ2mEQ&sig2=T-80MoJYwHVMfU8Ybi6pqA&bvm=bv.88528373,d.ZWU) — Website Performance and Optimization Test
+- [YSlow](https://www.google.ru/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&sqi=2&ved=0CBwQFjAA&url=http%3A%2F%2Fyslow.org%2F&ei=lokIVbT8MMPUOfWNgOAH&usg=AFQjCNE9JdE5wcEh8i_vorWQGTRKrvAiiw&sig2=txewxU7qQkGGuH8Lshi2lQ&bvm=bv.88528373,d.ZWU) — analyzes web pages and why they're slow
+- strace
+- [confess.js](https://github.com/jamesgpearce/confess) — Uses PhantomJS to headlessly analyze web pages and generate manifests.
+
+In order to persist across browser sessions, values in `localStorage` are written to disk. And yes, it is slow. The amount of data being read did not affect how quickly the read happened, so the best strategy is to use as few keys as possible to store as much data as possible.
+
+Recommendations on inlining:
+
+- very small files should be inlined
+- page images should rarely be inlined
+- anything that isn't critical for the above-the-fold page view should not be inlined
+- be careful with inlining CSS images
+- don't rely on synthetic measurements — use RUM instead
+
+Loading third party script. stylesheet or font in a blocking manner could become a SPOF: if the resource becomes unavaliable, it will completely block page rendering.
 
 ### Even Faster Web Sites ++++
 
