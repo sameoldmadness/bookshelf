@@ -21,6 +21,8 @@ Notes
 
 ### Async Javascript
 
+`jQuery.fn.triggerHandler` can be used if event bubbling is not desirable.
+
 ### Web Performance Playbook vol.2 +++
 
 Tools:
