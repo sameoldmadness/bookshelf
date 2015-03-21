@@ -23,6 +23,8 @@ Notes
 
 `jQuery.fn.triggerHandler` can be used if event bubbling is not desirable.
 
+`async.js` - the most widely use Javascript control flow library.
+
 ### Web Performance Playbook vol.2 +++
 
 Tools:
