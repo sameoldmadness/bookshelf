@@ -19,7 +19,7 @@ Reading list
 Notes
 -----
 
-### Async Javascript
+### Async Javascript +
 
 `jQuery.fn.triggerHandler` can be used if event bubbling is not desirable.
 
