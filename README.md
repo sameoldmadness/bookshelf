@@ -7,6 +7,7 @@ Schedule
 |[Even Faster Web Sites](#even-faster-web-sites-)|Steve Souders|3w|2014-11-28|2015-01-14|
 |[Web Performance Playbook vol.2](#web-performance-playbook-vol2-)|Stoyan Stefanov|2w|2015-01-15|2015-03-18|
 |[Async JavaScript](#async-javascript)|Trevor Brunham|1w|2015-03-18|2015-03-24|
+|Mastering JavaScript design patterns|Simon timms|3w|2015-04-24|2015-05-14|
 |Maintainable JavaScript|Nicolas Zakas|3w|2015-03-24||
 
 Reading list
@@ -20,7 +21,13 @@ Reading list
 Notes
 -----
 
-### Maintainable JavaScript
+### Mastering JavaScript design patterns +
+
+> Without a proper class system, js, of course, has no concept of inheritance.
+
+> It isn't possible to create a clean implementation of the singleton pattern due to the restrictions on the constructor.
+
+> JavaScript is not a functional programming language.
 
 ### Async Javascript +
 
