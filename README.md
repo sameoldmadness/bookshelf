@@ -25,7 +25,11 @@ Notes
 
 > Without a proper class system, js, of course, has no concept of inheritance.
 
+<!-- -->
+
 > It isn't possible to create a clean implementation of the singleton pattern due to the restrictions on the constructor.
+
+<!-- -->
 
 > JavaScript is not a functional programming language.
 
