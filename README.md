@@ -52,6 +52,11 @@ Debates on `switch`
 
 Comments could be used to store templates. Comments are DOM nodes, so they can be queried and their content extracted using JavaScript.
 
+Event handling:
+
+1. Separate application logic
+2. Don't pass the event object around
+
 
 
 ### Mastering JavaScript design patterns +
