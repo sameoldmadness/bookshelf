@@ -21,7 +21,7 @@ Reading list
 Notes
 -----
 
-### Maintainable JavaScript
+### Maintainable JavaScript +++++
 
 Establishing style guidelines should always come as early in the process as possible.
 
