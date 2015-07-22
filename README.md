@@ -46,6 +46,12 @@ Debates on `switch`
 
 > Avoid primitive type wrappers
 
+<!-- -->
+
+> Keep JavaScript out of your CSS. Keep CSS out of JavaScript. Keep JavaScript or of HTML. Keep HTML out of JavaScript.
+
+Comments could be used to store templates. Comments are DOM nodes, so they can be queried and their content extracted using JavaScript.
+
 
 
 ### Mastering JavaScript design patterns +
