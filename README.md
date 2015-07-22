@@ -21,6 +21,33 @@ Reading list
 Notes
 -----
 
+### Maintainable JavaScript
+
+Establishing style guidelines should always come as early in the process as possible.
+
+> Figuring out guidelines is a process that typically takes longer than it should.
+
+Variable names should begin with a noun, functions should begin with a verb. Meaningless names should be avoided.
+
+> I recommend avoiding the use of `undefined` in code.
+
+A case for comment:
+
+* difficult to understand code
+* potential author errors
+* browser-specific hacks
+* documentation
+
+Debates on `switch`
+
+* indentation
+* falling through
+* default
+
+> Avoid primitive type wrappers
+
+
+
 ### Mastering JavaScript design patterns +
 
 > Without a proper class system, js, of course, has no concept of inheritance.
