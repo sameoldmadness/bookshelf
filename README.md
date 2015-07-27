@@ -3,6 +3,7 @@ Schedule
 
 |Title|Author|Est|Begin|End|
 |-----|------|-----|---|---|
+|Speaking JavaScript|Dr. Axel Rauschmayer|5w|2015-07-28||
 |[Maintainable JavaScript](#maintainable-javascript-)|Nicolas Zakas|3w|2015-03-24|2015-07-27|
 |[Mastering JavaScript design patterns](#mastering-javascript-design-patterns-)|Simon Timms|3w|2015-04-24|2015-05-14|
 |[Async JavaScript](#async-javascript)|Trevor Brunham|1w|2015-03-18|2015-03-24|
