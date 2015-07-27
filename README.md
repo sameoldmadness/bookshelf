@@ -79,6 +79,22 @@ Type detection techniques:
   * `x in object`
   * `object.hasOwnProperty(x)` — for non-DOM objects
 
+> The key is to identify parts of the code that are likely to fail in a particular way and throw errors only there.
+
+Error checking is especially useful if you cannot identify all the places where a function will be called (i.e. utility function or a library).
+
+Custom error:
+
+```js
+function MyError(message) {
+  this.message = message;
+}
+
+MyError.prototype = new Error();
+```
+
+
+
 ### Mastering JavaScript design patterns +
 
 > Without a proper class system, js, of course, has no concept of inheritance.
