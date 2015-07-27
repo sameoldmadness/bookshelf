@@ -7,8 +7,8 @@ Schedule
 |[Even Faster Web Sites](#even-faster-web-sites-)|Steve Souders|3w|2014-11-28|2015-01-14|
 |[Web Performance Playbook vol.2](#web-performance-playbook-vol2-)|Stoyan Stefanov|2w|2015-01-15|2015-03-18|
 |[Async JavaScript](#async-javascript)|Trevor Brunham|1w|2015-03-18|2015-03-24|
-|Mastering JavaScript design patterns|Simon timms|3w|2015-04-24|2015-05-14|
-|Maintainable JavaScript|Nicolas Zakas|3w|2015-03-24||
+|[Mastering JavaScript design patterns](async-javascript-)|Simon Timms|3w|2015-04-24|2015-05-14|
+|[Maintainable JavaScript](#maintainable-javascript-)|Nicolas Zakas|3w|2015-03-24|2015-07-27|
 
 Reading list
 ------------
@@ -16,6 +16,7 @@ Reading list
 |Title|Author|
 |-----|------|
 |HTTP Specification||
+|ECMAScript 2015 Specification||
 |HTTP: The Definitive Guide|Gourley|
 
 Notes
