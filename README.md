@@ -67,7 +67,17 @@ Type detection techniques:
   * `number`: `typeof x === 'number'`
   * `boolean`: `typeof x === 'boolean'`
   * `undefined`: `typeof x === 'undefined'`
-  * null: `x === null`
+  * `null`: `x === null`
+* reference values (limitation: cross-frame check)
+  * `Date`: `x instanceof Date`
+  * `RegExp`: `x instanceof RegExp`
+  * `Error`: `x instanceof Error`
+  * `Function`: `typeof x === 'function'`
+  * DOM method: `x in document` (`typeof` returns `'object'` in IE8)
+  * `Array`: `Object.prototype.toString.call(x) === '[object Array]'` or `Array.isArray`
+* properties
+  * `x in object`
+  * `object.hasOwnProperty(x)` — for non-DOM objects
 
 ### Mastering JavaScript design patterns +
 
