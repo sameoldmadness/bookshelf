@@ -93,7 +93,14 @@ function MyError(message) {
 MyError.prototype = new Error();
 ```
 
+> Do not modufy objects you don't own.
 
+On browser detection:
+
+* User-Agent detection — use sparingly
+* Feature detection — best choice
+* Feature Inference — avoid at all cost
+* Browser Inference — avoid at all cost
 
 ### Mastering JavaScript design patterns +
 
