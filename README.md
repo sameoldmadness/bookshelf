@@ -39,7 +39,7 @@ A case for comment:
 * browser-specific hacks
 * documentation
 
-Debates on `switch`
+Debates on `switch`:
 
 * indentation
 * falling through
@@ -58,7 +58,16 @@ Event handling:
 1. Separate application logic
 2. Don't pass the event object around
 
+Avoid `null` comparsions unless null is a valid value. Detect desired types instead.
 
+Type detection techniques:
+
+* primitive values
+  * `string`: `typeof x === 'string'`
+  * `number`: `typeof x === 'number'`
+  * `boolean`: `typeof x === 'boolean'`
+  * `undefined`: `typeof x === 'undefined'`
+  * null: `x === null`
 
 ### Mastering JavaScript design patterns +
 
